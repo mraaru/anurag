@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Top from "../../Pages/Component/Layout/Top";
 import Menu from "../../Pages/Component/Layout/Menu";
 import Footer from "../../Pages/Component/Layout/Footer";
