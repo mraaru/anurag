@@ -218,6 +218,41 @@ const Sidebarx = (props) => {
               </li>
             </ul>
           </div>
+          <div className="sidebar-mobile">
+            <div className="sidebar-mobile-innerbox">
+              <h2 style={{
+                paddingLeft:'20%'
+              }}>Home</h2>
+              <br/>
+              <ul>
+                <li>
+                  <Link to='/'>Home</Link>
+                </li>
+                <li>
+                  <Link to='/'>Home</Link>
+                </li>
+                <li>
+                  <Link to='/'>Home</Link>
+                </li>
+                <li>
+                  <Link to='/'>Home</Link>
+                </li>
+                <li>
+                  <Link to='/'>Home</Link>
+                </li>
+                <li>
+                  <Link to='/'>Home</Link>
+                </li>
+                <li>
+                  <Link to='/'>Home</Link>
+                </li>
+                <li>
+                  <Link to='/'>Home</Link>
+                </li>
+             </ul>
+            </div>
+            
+          </div>
         </nav>
       </div>
     </>

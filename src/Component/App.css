@@ -72,13 +72,13 @@ a {
   border-radius: 50%;
 }
 #sidebar.active .toggle-btn span:nth-child(1) {
-  transform: rotate(50deg);
+  transform: rotate(45deg);
   position: absolute;
   margin: 0;
   width: 20px;
 }
 #sidebar.active .toggle-btn span:nth-child(2) {
-  transform: rotate(130deg);
+  transform: rotate(135deg);
   position: absolute;
   margin: 0;
   width: 20px;
@@ -390,7 +390,7 @@ header ul li ul li {
   font-weight: 100;
   font-size: 0.9rem;
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 870px) {
   header {
     display: none;
   }
@@ -431,6 +431,9 @@ header ul li ul li {
   height: 100px;
   max-width: 1500px;
   margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .logosidebar {
   width: 100%;
@@ -557,6 +560,57 @@ nav ul ul li a {
 #sidebar.active {
   top: 0;
 }
+.sidebar-mobile{
+  display: none;
+  margin-top: 120px;
+  flex-wrap: wrap;
+
+}
+.sidebar-mobile-innerbox{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar-mobile-innerbox h2{
+  font-family: "Cinzel", serif;
+  width: 100%;
+}
+
+
+.sidebar-mobile ul{
+margin: 0;
+background-color:transparent;
+display: flex;
+flex-wrap: wrap;
+width: 80%;
+justify-content: space-evenly;
+}
+.sidebar-mobile ul li{
+border: none;
+line-height: 34px;
+padding: 0;
+margin: 0;
+width: 45%;
+}
+.sidebar-mobile ul li a{
+  padding: 0;
+}
+@media screen and (max-width:500px){
+  .sidebar-dextop{
+    display: none;
+  }
+  .sidebar-mobile{
+    display: flex;
+  }
+}
+@media screen and (max-width:300px){
+  .sidebar-mobile-innerbox ul{
+    width: 100%;
+  }
+}
+
 
 /*=======HOME HOME HOME HOME HOME ================*/
 .welcome {
