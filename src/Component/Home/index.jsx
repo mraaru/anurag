@@ -7,6 +7,7 @@ import Newsx from "../../Pages/Component/Container/News/Common-news-a";
 import Sidebar from '../../Pages/Component/Layout/Sidebar';
 
 
+
 const Home = () => {
   return (
     <>

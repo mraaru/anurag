@@ -220,36 +220,15 @@ const Sidebarx = (props) => {
           </div>
           <div className="sidebar-mobile">
             <div className="sidebar-mobile-innerbox">
-              <h2 style={{
-                paddingLeft:'20%'
-              }}>Home</h2>
-              <br/>
+              <h3><Link to={props.link1}> {props.name2} </Link> </h3>
+              <br />
               <ul>
                 <li>
-                  <Link to='/'>Home</Link>
+                  <Link to={props.link1}> {props.name2a} </Link>
                 </li>
-                <li>
-                  <Link to='/'>Home</Link>
-                </li>
-                <li>
-                  <Link to='/'>Home</Link>
-                </li>
-                <li>
-                  <Link to='/'>Home</Link>
-                </li>
-                <li>
-                  <Link to='/'>Home</Link>
-                </li>
-                <li>
-                  <Link to='/'>Home</Link>
-                </li>
-                <li>
-                  <Link to='/'>Home</Link>
-                </li>
-                <li>
-                  <Link to='/'>Home</Link>
-                </li>
-             </ul>
+                
+              </ul>
+              
             </div>
             
           </div>
